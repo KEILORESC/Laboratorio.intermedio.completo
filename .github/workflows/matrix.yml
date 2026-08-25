@@ -54,7 +54,7 @@ jobs:
             --logger "trx;LogFileName=test-results.trx"
 
       - name: Subir resultado por combinación
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: always()
         with:
           name: results-dotnet${{ matrix.dotnet-version }}-${{ matrix.os }}
