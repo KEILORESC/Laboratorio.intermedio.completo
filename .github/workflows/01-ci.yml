@@ -120,4 +120,4 @@ jobs:
             echo "| Fallidas | ${FALLIDAS:-0} |"
             echo ""
             echo "SDK usado en build: \`${{ needs.build.outputs.version-sdk }}\`"
-          } >> "$GITHUB_STEP_SUMMARY"
+          } >> "$GITHUB_STEP_SUMMARY" 
